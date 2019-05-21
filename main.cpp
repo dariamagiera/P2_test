@@ -2,6 +2,7 @@
 
 int main()
 {
-	std::cout << "Hello World" << std::endl;
-	return 1;
+	for(int i = 0; i < 100; i++)
+		std::cout << "Hello!" << std::endl;
+	return 0;
 }
